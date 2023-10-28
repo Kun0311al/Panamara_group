@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://db.onlinewebfonts.com/c/3295314e055fdc8efa7b9c614782bbbc?family=Nohemi');
 
 *{
     box-sizing: border-box;
@@ -151,7 +152,7 @@ header li, a{
 }
 
 hr{
-    border-top: 1px solid #000;
+    border-top: 2px solid #C5C5C5;
 }
 
 .service{
@@ -219,4 +220,56 @@ hr{
 .whatwe span{
     color: #E32D91;
     font-weight: 600;
+}
+
+.outsource{
+    padding: 50px 60px 100px 60px;
+}
+
+.container6{
+    display: flex;
+}
+
+.whyd{
+    width: 70%;
+}
+
+.whyd2{
+    width: 30%;
+}
+
+.whyd h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.57px;
+    padding: 10px 0 20px 0;
+}
+
+.whyd p{
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    padding-bottom: 35px;
+}
+
+.whyd ul{
+    list-style: none;
+    font-family: 'Nohemi', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.whyd li{
+    margin: 10px 0;
+    font-family: 'Nohemi', sans-serif;  
+}
+
+.whyd2 img{
+    height: 429px;
+    width: 429px;
 }
