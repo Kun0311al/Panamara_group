@@ -91,7 +91,7 @@ header li, a{
     padding: 50px 60px 100px 60px;
 }
 
-.about{
+.name{
     font-family: 'Nohemi', sans-serif;
     font-weight: 600;
     font-size: 90px;
@@ -131,4 +131,38 @@ header li, a{
     font-weight: 600;
     font-size: 22px;
     line-height: 29.05px;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.card{
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.84px;
+    width: 17rem;
+    padding: 20px 30px 20px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+hr{
+    border-top: 1px solid #000;
+}
+
+.service{
+    padding: 50px 60px 100px 60px;
+}
+
+.service-info{
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25.41px;
+    text-align: justify;
 }
