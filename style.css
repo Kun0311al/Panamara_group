@@ -183,7 +183,7 @@ hr{
     font-weight: 500;
     line-height: 30.14px;
     font-family: 'Nohemi', sans-serif;
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 
 .service-card p{
@@ -193,4 +193,30 @@ hr{
 .service-card img{
     height: 100px;
     width: 100px;
+}
+
+.container5{
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.whatwwe h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43.57px;
+}
+
+.whatwe p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    gap: 30px;
+}
+
+.whatwe span{
+    color: #E32D91;
+    font-weight: 600;
 }
