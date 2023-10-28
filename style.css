@@ -166,3 +166,31 @@ hr{
     line-height: 25.41px;
     text-align: justify;
 }
+
+.services-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.service-card{
+    border: 2px solid #000;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30.14px;
+    font-family: 'Nohemi', sans-serif;
+    padding: 10px 20px;
+}
+
+.service-card p{
+    margin-left: 20px;
+}
+
+.service-card img{
+    height: 100px;
+    width: 100px;
+}
