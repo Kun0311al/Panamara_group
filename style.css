@@ -44,7 +44,6 @@ header li, a{
 
 .container{
     padding: 40px;
-    position: relative;
 }
 
 .heading{
@@ -58,8 +57,7 @@ header li, a{
 }
 
 .fish{
-    width: 98%;
-    height: 98%;
+
 }
 
 .container2{
@@ -67,15 +65,12 @@ header li, a{
     display: flex;
     color: #fff;
     justify-content: space-between;
-    padding: 25px;
-    position: absolute;
-    top: 1110px;
 }
 
 .p1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 33px;
     line-height: 50px;
     width: 50%;
     padding: 20px 55px;
@@ -83,7 +78,7 @@ header li, a{
 
 .p2{
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 30px;
     text-align: justify;
@@ -93,7 +88,7 @@ header li, a{
 
 .about-us{
     position: relative;
-    padding: 150px 77px 100px 77px;
+    padding: 50px 60px 100px 60px;
 }
 
 .about{
@@ -108,4 +103,32 @@ header li, a{
     font-weight: 700;
     font-size: 30px;
     line-height: 46px;
+}
+
+.container3{
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.p3{
+    width: 50%;
+}
+
+.p4{
+    width: 50%;
+}
+
+.tgline{
+    font-family: 'Inter', sans-serif;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29.05px;
 }
