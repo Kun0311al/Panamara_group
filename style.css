@@ -103,13 +103,13 @@ header li, a{
         width: 100%;
         font-size: 16px;
         line-height: 21px;
-        padding: 20px 30px;
+        padding: 20px 0px;
     }
     .p2{
         width: 100%;
         font-size: 12px;
         line-height: 16px;
-        padding: 20px 30px;
+        padding: 20px 0px;
     }
 }
 
