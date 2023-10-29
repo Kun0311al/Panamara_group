@@ -90,6 +90,26 @@ header li, a{
     letter-spacing: -3%;
 }
 
+@media screen and (max-width: 480px) {
+    .heading{
+        font-size: 40px;
+        line-height: 36px;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .p1{
+        width: 100%;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .p2{
+        width: 100%;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
 .about-us{
     position: relative;
     padding: 50px 60px 100px 60px;
@@ -158,6 +178,39 @@ header li, a{
     padding: 20px 30px 20px 30px;
     align-items: center;
     text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .about-us{
+        padding-bottom: 10px;
+    }
+    .name{
+        font-size: 36px;
+        line-height: 120px;
+    }
+    .ab-line{
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+    .container3{
+        flex-direction: column;
+    }
+    .p3, .p4{
+        width: 100%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .tgline{
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+    .container4{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
 
 hr{
@@ -238,6 +291,38 @@ hr{
     font-weight: 600;
 }
 
+@media screen and (max-width: 480px) {
+    .service-info{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .services-list{
+        flex-direction: column;
+        margin-bottom: -20px;
+    }
+    .service-card{
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 16.07px;
+    }
+    .service-card img{
+        width: 50px;
+        height: 50px;
+    }
+    .container5{
+        flex-direction: column;
+    }
+    .whatwe h2{
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+    .whatwe p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
 .outsource{
     padding: 50px 60px 100px 60px;
 }
@@ -294,6 +379,36 @@ hr{
 .whyd2 img{
     height: 429px;
     width: 429px;
+}
+
+@media screen and (max-width: 480px){
+    .outsource{
+        padding-bottom: 50px;
+    }
+    .container6{
+        margin-top: -100px;
+        flex-direction: column-reverse;
+    }
+    .whyd{
+        width: 100%;
+        margin-top: -100px;
+    }
+    .whyd h2{
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+    .whyd p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .whyd ul{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .whyd2{
+        width: 100%;
+        margin-left: -45px;
+    }
 }
 
 .contact{
@@ -384,7 +499,6 @@ hr{
 .detail-add span{
     font-family: "inter", sans-serif;
     font-weight: 600;
-    font-size: 21px;
     line-height: 30px;
     color: #E32D91;
 }
@@ -408,4 +522,45 @@ hr{
 .vr{
     border-left: 2px solid #CBCBCB;
     height: 30px;
+}
+
+@media screen and (max-width: 480px){
+    .cname{
+        font-size: 36px;
+        line-height: 120px;
+    }
+    .details{
+        flex-direction: column;
+    }
+    .area{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .details label{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .address{
+        flex-direction: column;
+    }
+    .address img{
+        width: 181px;
+        height: 72.08px;
+    }
+    .detail-add{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .detail-add h3{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .detail-add p{
+        font-size: 12px;
+    }
+    .copyright p{
+        font-size: 10px;
+        line-height: 30px;
+        padding: 0px 10px;
+    }
 }
