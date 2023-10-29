@@ -554,6 +554,23 @@ hr{
     color: #1D1D1D;
 }
 
+.submit{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nohemi', sans-serif;
+    background-color: #000;
+    border: 1px solid #1D1D1D;
+    color: #BBBBBB;
+    margin: 30px 0 0 0;
+    float: right;
+    padding: 10px 146px 10px 146px;
+}
+
+.submit:hover{
+    color: #fff;
+}
+
 .footer{
     padding: 50px 60px 20px 60px;
     background-color: #000;
@@ -637,6 +654,9 @@ hr{
     .details label{
         font-size: 16px;
         line-height: 30px;
+    }
+    .submit{
+        width: 100%;
     }
     .footer{
         padding: 50px 30px 20px 30px;
