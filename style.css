@@ -182,7 +182,7 @@ header li, a{
 
 @media screen and (max-width: 480px) {
     .about-us{
-        padding-bottom: 10px;
+        padding: 50px 30px 10px 30px;
     }
     .name{
         font-size: 36px;
@@ -292,6 +292,9 @@ hr{
 }
 
 @media screen and (max-width: 480px) {
+    .service{
+        padding: 50px 30px 100px 30px;
+    }
     .service-info{
         font-size: 12px;
         line-height: 16px;
@@ -383,7 +386,7 @@ hr{
 
 @media screen and (max-width: 480px){
     .outsource{
-        padding-bottom: 50px;
+        padding: 50px 30px 50px 30px;
     }
     .container6{
         margin-top: -100px;
@@ -525,6 +528,9 @@ hr{
 }
 
 @media screen and (max-width: 480px){
+    .contact{
+        padding: 50px 30px 100px 30px;
+    }
     .cname{
         font-size: 36px;
         line-height: 120px;
@@ -539,6 +545,9 @@ hr{
     .details label{
         font-size: 16px;
         line-height: 30px;
+    }
+    .footer{
+        padding: 50px 30px 20px 30px;
     }
     .address{
         flex-direction: column;
