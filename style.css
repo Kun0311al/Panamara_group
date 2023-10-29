@@ -40,7 +40,11 @@ header li, a{
 
 @media screen and (max-width: 480px) {
     header{
-        padding: 15px 30px 15px 40px;
+        padding: 15px 30px 15px 30px;
+    }
+    header img{
+        height: 25%;
+        width: 25%;
     }
     .nav_links{
         display: none;
