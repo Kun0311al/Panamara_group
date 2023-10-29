@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header{
@@ -319,4 +320,48 @@ hr{
     font-size: 20px;
     font-weight: 600;
     color: #1D1D1D;
+}
+
+.footer{
+    padding: 50px 60px 100px 60px;
+    background-color: #000;
+    color: #FFF;
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flogo{
+    width: 366.62px;
+    height: 146px;
+}
+
+.detail-add{
+    gap: 30px;
+    width: 48%;
+}
+
+.detail-add h3{
+    font-family: 'Nohemi', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.detail-add p{
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.detail-add span{
+    font-family: "inter", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: #E32D91;
 }
