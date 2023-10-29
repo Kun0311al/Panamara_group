@@ -273,3 +273,50 @@ hr{
     height: 429px;
     width: 429px;
 }
+
+.contact{
+    padding: 50px 60px 100px 60px;
+}
+
+.cname{
+    font-family: 'Nohemi', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.area{
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.details label{
+    font-family: 'Nohemi', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #1D1D1D;
+}
+
+.details input{
+    border: 1px solid #1D1D1D;
+    padding: 0px 6px;
+    color: #1D1D1D;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Nohemi', sans-serif;
+    line-height: 40px;
+}
+
+.details ::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1D1D1D;
+}
