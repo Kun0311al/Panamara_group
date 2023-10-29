@@ -191,6 +191,7 @@ header li, a{
     }
     .name{
         font-size: 36px;
+        line-height: 36.16px;
     }
     .ab-line{
         font-size: 16px;
