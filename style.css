@@ -283,13 +283,19 @@ header li, a{
 }
 
 @media screen and (max-width: 480px) {
+    .team-details{
+        margin-top: 50px;
+    }
+    .team{
+        font-size: 36px;
+        font-weight: 700;
+    }
     .team-cards{
         flex-direction: column;
     }
     .tcard{
         width: 100%;
-        margin-top: 40px;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
     .tcard img{
         width: 100%;
