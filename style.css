@@ -323,7 +323,7 @@ hr{
 }
 
 .footer{
-    padding: 50px 60px 100px 60px;
+    padding: 50px 60px 20px 60px;
     background-color: #000;
     color: #FFF;
 }
@@ -364,4 +364,20 @@ hr{
     font-size: 21px;
     line-height: 30px;
     color: #E32D91;
+}
+
+.copyright{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    padding: 0px 50px;
+}
+
+.vr{
+    border-left: 2px solid #CBCBCB;
+    height: 30px;
 }
