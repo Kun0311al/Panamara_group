@@ -24,8 +24,9 @@ $sql = "INSERT INTO Contactdetails (User_Name, Email, Phone_No) VALUES ('$name',
 
 if ($conn->query($sql) === true) {
     echo "Data inserted successfully!";
+    header("refresh: 2; url = https://panameragroup.com/");
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error: ";
 }
 
 // Close the database connection
