@@ -66,7 +66,7 @@ header li, a{
 }
 
 .fish{
-
+    margin: -180px 0 -30px -30px;
 }
 
 .container2{
@@ -120,6 +120,12 @@ header li, a{
         line-height: 16px;
         padding: 20px 0px;
         letter-spacing: 0px;
+    }
+    .fish{
+        margin: -40px 0 -40px 35px;
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
     }
 }
 
