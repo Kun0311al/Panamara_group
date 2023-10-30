@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <img class="logo" src="assets/logo.png" alt="logo">
+        <img class="logo" src="assets/logo.png" alt="logo" onclick="myFunction()">
         <nav>
             <ul class="nav_links">
                 <li><a href="index.html">Home</a></li>
@@ -302,6 +302,10 @@
             toggleBtnIcon.classList = isOpen
                 ? 'fa-solid fa-xmark'
                 : 'fa-solid fa-bars'
+        }
+
+        function myFunction() {
+            window.open("https://panameragroup.com/");
         }
     </script>
 </body>
