@@ -115,10 +115,11 @@ header li, a{
 
 .container{
     padding: 30px;
+    width: 100%;
 }
 
 .heading{
-    font-weight: 600;
+    font-weight: 900;
     font-size: 124px;
     line-height: 120px;
     color: #1D1D1D;
@@ -135,6 +136,7 @@ header li, a{
     background-color: #000;
     display: flex;
     color: #fff;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -163,7 +165,7 @@ header li, a{
     .heading{
         font-size: 40px;
         line-height: 36px;
-        font-weight: 700;
+        font-weight: 900;
     }
     .container2{
         padding: 0 30px 0 30px;
@@ -198,7 +200,7 @@ header li, a{
 
 .name{
     font-family: 'Nohemi', sans-serif;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 96px;
     line-height: 120px;
 }
@@ -267,14 +269,16 @@ header li, a{
     }
     .name{
         font-size: 36px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 36.16px;
     }
     .ab-line{
+        padding-top: 30px;
         font-size: 16px;
         line-height: 19.36px;
     }
     .container3{
+        padding-top: 30px;
         flex-direction: column;
     }
     .p3, .p4{
@@ -318,7 +322,7 @@ header li, a{
     width: 25%;
     align-items: center;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 20px 0 0;
 }
 
 .tcard img{
@@ -448,6 +452,7 @@ hr{
         padding: 50px 30px 100px 30px;
     }
     .service-info{
+        padding-top: 30px;
         font-size: 12px;
         line-height: 16px;
     }
