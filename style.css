@@ -30,6 +30,7 @@ header li, a{
     font-weight: 600;
     font-size: 21px;
     line-height: 30px;
+    letter-spacing: -0.42px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -153,7 +154,7 @@ header li, a{
 
 .p2{
     font-family: 'Inter', sans-serif;
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 30px;
     text-align: justify;
@@ -215,7 +216,7 @@ header li, a{
     font-weight: 700;
     font-size: 36px;
     line-height: 46px;
-    letter-spacing: -2%;
+    letter-spacing: -0.72px;
 }
 
 .container3{
@@ -225,7 +226,7 @@ header li, a{
     justify-content: space-between;
     gap: 40px;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 30px;
     text-align: justify;
     color: #585858;
@@ -243,9 +244,9 @@ header li, a{
     font-family: 'Inter', sans-serif;
     padding-top: 30px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 29.05px;
-    letter-spacing: -2%;
+    letter-spacing: -0.48px;
 }
 
 .container4{
@@ -293,7 +294,8 @@ header li, a{
     }
     .tgline{
         font-size: 16px;
-        line-height: 19.36px;
+        line-height: normal;
+        letter-spacing: -0.32px;
     }
     .container4{
         flex-direction: column;
@@ -301,6 +303,7 @@ header li, a{
     .card{
         width: 100%;
         margin-bottom: 15px;
+        font-size: 16px;
     }
 }
 
@@ -313,7 +316,7 @@ header li, a{
     font-size: 48px;
     font-weight: 600;
     line-height: 46px;
-    letter-spacing: -1%;
+    letter-spacing: -0.26px;
     font-family: 'Nohemi', sans-serif;
 }
 
@@ -386,9 +389,9 @@ hr{
     font-family: 'Inter', sans-serif;
     padding-top: 20px;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 25.41px;
-    letter-spacing: -2%;
+    letter-spacing: -0.36px;
     color: #585858;
     text-align: justify;
 }
@@ -410,7 +413,7 @@ hr{
     font-weight: 500;
     line-height: 30.14px;
     font-family: 'Nohemi', sans-serif;
-    letter-spacing: -2%;
+    letter-spacing: -0.6px;
     padding: 10px 15px;
 }
 
@@ -435,14 +438,14 @@ hr{
     font-weight: 600;
     font-size: 36px;
     line-height: 43.57px;
-    letter-spacing: -2%;
+    letter-spacing: -0.72px;
 }
 
 .whatwe p{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     font-weight: 400;
-    letter-spacing: -2%;
+    letter-spacing: -0.36px;
     color: #1D1D1D;
     gap: 30px;
 }
@@ -485,6 +488,7 @@ hr{
     .whatwe p{
         font-size: 12px;
         line-height: 16px;
+        letter-spacing: -0.24px;
     }
 }
 
@@ -510,16 +514,16 @@ hr{
     font-weight: 600;
     line-height: 43.57px;
     padding: 10px 0 20px 0;
-    letter-spacing: -2%;
+    letter-spacing: -0.72px;
     color: #1D1D1D;
 }
 
 .whyd p{
     font-family: 'Inter', sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: -2%;
+    letter-spacing: -0.36px;
     color: #585858;
     text-align: justify;
     padding-bottom: 35px;
@@ -529,7 +533,7 @@ hr{
     list-style: none;
     font-family: 'Nohemi', sans-serif;
     color: #363636;
-    letter-spacing: 3%;
+    letter-spacing: 0.78px;
     font-weight: 600;
     font-size: 26px;
     line-height: 30px;
@@ -560,14 +564,17 @@ hr{
     .whyd h2{
         font-size: 16px;
         line-height: 19.36px;
+        letter-spacing: 0.32px;
     }
     .whyd p{
         font-size: 12px;
         line-height: 16px;
+        letter-spacing: 0.24px;
     }
     .whyd ul{
         font-size: 16px;
         line-height: 24px;
+        letter-spacing: 0.48px;
     }
     .whyd2{
         width: 100%;
@@ -667,6 +674,7 @@ hr{
     font-family: 'Nohemi', sans-serif;
     font-weight: 600;
     font-size: 28px;
+    letter-spacing: 0.28px;
     line-height: 30px;
     padding-bottom: 15px;
 }
@@ -675,6 +683,7 @@ hr{
     font-family: "inter", sans-serif;
     font-weight: 400;
     font-size: 21px;
+    letter-spacing: -0.42px;
     line-height: 30px;
 }
 
@@ -697,7 +706,7 @@ hr{
     font-size: 21px;
     font-weight: 600;
     line-height: 30px;
-    letter-spacing: -2%;
+    letter-spacing: -0.42px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -747,14 +756,17 @@ hr{
     }
     .detail-add h3{
         font-size: 16px;
+        letter-spacing: 0.16px;
         line-height: 30px;
     }
     .detail-add p{
         font-size: 12px;
+        letter-spacing: -0.24px;
     }
     .copyright p{
         font-size: 10px;
         line-height: 30px;
+        letter-spacing: -0.2px;
         padding: 0px 10px;
     }
 }
