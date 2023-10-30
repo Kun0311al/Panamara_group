@@ -129,7 +129,7 @@ header li, a{
 }
 
 .fish{
-    margin: -180px 0 0 -80px;
+    margin: -180px 0 0px -80px;
 }
 
 .container2{
@@ -137,7 +137,7 @@ header li, a{
     display: flex;
     color: #fff;
     width: 100%;
-    margin-top: -100px;
+    margin-top: -110px;
     justify-content: space-between;
 }
 
