@@ -200,7 +200,7 @@ header li, a{
 
 .about-us{
     position: relative;
-    padding: 50px 60px 100px 60px;
+    padding: 50px 77px 100px 77px;
 }
 
 .name{
@@ -327,11 +327,11 @@ header li, a{
     width: 25%;
     align-items: center;
     text-align: center;
-    padding: 0 20px 0 0;
+    padding: 0 5px;
 }
 
 .tcard img{
-    width: 277.25px;
+    width: 279px;
     height: 342px;
 }
 
@@ -379,7 +379,7 @@ hr{
 }
 
 .service{
-    padding: 50px 60px 100px 60px;
+    padding: 50px 77px 100px 77px;
 }
 
 .service-info{
@@ -489,7 +489,7 @@ hr{
 }
 
 .outsource{
-    padding: 50px 60px 100px 60px;
+    padding: 50px 77px 100px 77px;
 }
 
 .container6{
@@ -577,7 +577,7 @@ hr{
 }
 
 .contact{
-    padding: 50px 60px 100px 60px;
+    padding: 50px 77px 100px 77px;
 }
 
 .cname{
@@ -643,7 +643,7 @@ hr{
 }
 
 .footer{
-    padding: 50px 60px 20px 60px;
+    padding: 50px 77px 20px 77px;
     background-color: #000;
     color: #FFF;
 }
