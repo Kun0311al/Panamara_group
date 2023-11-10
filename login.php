@@ -30,7 +30,7 @@ if ($result->num_rows > 0) {
     $status = $row['Status'];
 
     // Check the status
-    if ($status == 'true') {
+    if ($status == 'True') {
         // Redirect to the link
         header("Location: $link");
         exit();
