@@ -25,6 +25,9 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
 <!-- Add New Data Form -->
 <form action="add_data.php" method="post">
     <h1>Add New Data</h1>
+    <label for="newEmail">Name:</label>
+    <input type="text" id="newName" name="newName" required>
+    <br>
     <label for="newEmail">Email:</label>
     <input type="email" id="newEmail" name="newEmail" required>
     <br>

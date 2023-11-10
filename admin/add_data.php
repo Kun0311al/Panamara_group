@@ -14,12 +14,13 @@ if ($conn->connect_error) {
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect form data
+    $newName = $_POST['newName'];
     $newEmail = $_POST['newEmail'];
     $newLink = $_POST['newLink'];
     $newStatus = $_POST['newStatus'];
 
     // Insert data into the database
-    $sql = "INSERT INTO Client_login (Email, Link, Status) VALUES ('$newEmail', '$newLink', '$newStatus')";
+    $sql = "INSERT INTO Client_login (Name, Email, Link, Status) VALUES ('$newName', '$newEmail', '$newLink', '$newStatus')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
