@@ -37,6 +37,7 @@ if ($result->num_rows > 0) {
     } else {
         // Display a message or redirect to an error page
         echo "Session expired. Please contact the support team.";
+        header("refresh: 2; url = https://panameragroup.com/");
     }
 } else {
     // If no matching record is found, you can redirect to an error page or do something else
