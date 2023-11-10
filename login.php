@@ -25,12 +25,19 @@ if ($result->num_rows > 0) {
     // Fetch the result
     $row = $result->fetch_assoc();
 
-    // Extract the link from the third column
+    // Extract the link and status from the third and fourth columns
     $link = $row['Link'];
+    $status = $row['Status'];
 
-    // Redirect to the link
-    header("Location: $link");
-    exit();
+    // Check the status
+    if ($status == 'true') {
+        // Redirect to the link
+        header("Location: $link");
+        exit();
+    } else {
+        // Display a message or redirect to an error page
+        echo "Session expired. Please contact the support team.";
+    }
 } else {
     // If no matching record is found, you can redirect to an error page or do something else
     echo "No matching record found!";
