@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Login</title>
+
+    <link rel="stylesheet" href="client.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <img class="logo" src="assets/logo.png" alt="logo" onclick="myFunction()">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="client.html">Client Login</a></li>
+                <li><a href="#Contact-us">Contact Us</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!--responsive navbar view-->
+            <div class="dropdown_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="client.html">Client Login</a></li>
+                <li><a href="#Contact-us">Contact us</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <section class="login-section">
+        <div class="background-image"></div>
+        <div class="blur-container">
+            <form action="login.php" method="post">
+                <label for="email">Please enter your registered email <span>*</span></label>
+                <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
+    
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="address">
+            <img class="flogo" src="assets/logo.png" alt="logo">
+            <div class="detail-add">
+                <h3>
+                    OUR OFFICES
+                </h3>
+                <div class="addresses">
+                    <div class="add">
+                        <span>USA</span>
+                        <span>INDIA</span>
+                    </div>
+                    <div class="add">
+                        <p>2901 Carlson Drive, Hammond, IN 46323</p>
+                        <p>1st Floor Suite No 4, Anora Residency, Bolinj Road Virar West – 401303 Mumbai, Maharashtra</p>
+                    </div>
+                </div>
+                <!-- <p><span>USA</span> 2901 Carlson Drive, Hammond, IN 46323</p>
+                <p><span>INDIA</span> 1st Floor Suite No 4, Anora Residency, Bolinj Road Virar West – 401303 Mumbai, Maharashtra</p> -->
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>@Copyrights 2023</p>
+            <div class="vr"></div>
+            <p>Panamera Consulting</p>
+            <div class="vr"></div>
+            <p>All Rights Reserved</p>
+        </div>
+    </section>
+
+
+    <script>
+        //for responsive navbar
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+
+        function myFunction() {
+            window.open("https://panameragroup.com/");
+        }
+    </script>
+</body>
+</html>
