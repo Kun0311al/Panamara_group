@@ -17,14 +17,55 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 20px;
+            display: flex;
+        }
+        
+        input {
+            margin: 0 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
 
-<h2>Admin Panel</h2>
+<h1>Admin Panel</h1>
 
 <!-- Add New Data Form -->
+<h2>Add New Data</h2>
 <form action="add_data.php" method="post">
-    <h1>Add New Data</h1>
     <label for="newEmail">Name:</label>
     <input type="text" id="newName" name="newName" required>
     <br>
@@ -43,8 +84,8 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
 <hr>
 
 <!-- Update Data Form -->
+<h2>Update Data</h2>
 <form action="update_data.php" method="post">
-    <h1>Update Data</h1>
     <label for="updateEmail">Email:</label>
     <input type="email" id="updateEmail" name="updateEmail" required>
     <br>
@@ -57,9 +98,11 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     <button type="submit">Update Data</button>
 </form>
 
+<hr>
+
 <!-- Delete Data Form -->
+<h2>Delete Data</h2>
 <form action="delete_data.php" method="post">
-    <h1>Delete Data</h1>
     <label for="deleteEmail">Email:</label>
     <input type="email" id="deleteEmail" name="deleteEmail" required>
     <br>
@@ -67,7 +110,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
 </form>
 
 <!-- Display All Data -->
-<h1>All Data</h1>
+<h2>All Data</h2>
 <table border="1">
     <tr>
         <th>Email</th>
