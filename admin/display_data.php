@@ -25,7 +25,6 @@ if ($result->num_rows > 0) {
         echo "<td>" . $row["Email"] . "</td>";
         echo "<td>" . $row["Link"] . "</td>";
         echo "<td>" . $row["Status"] . "</td>";
-        echo '<td><a href="update_data.php?email=' . $row["email"] . '">Update</a> | <a href="delete_data.php?email=' . $row["email"] . '">Delete</a></td>';
         echo "</tr>";
     }
 } else {
