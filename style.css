@@ -78,7 +78,7 @@ header li, a{
 }
 
 .dropdown_menu.open {
-    height: 180px;
+    height: 220px;
 }
 
 .dropdown_menu li {
@@ -541,7 +541,7 @@ hr{
 
 .whyd li{
     margin: 10px 0;
-    font-family: 'Nohemi', sans-serif;  
+    font-family: 'Nohemi', sans-serif;
 }
 
 .whyd2 img{
@@ -629,7 +629,7 @@ hr{
     font-size: 20px;
     font-weight: 600;
     font-family: 'Nohemi', sans-serif;
-    color: #1D1D1D;
+    color: #DCDCDC;
 }
 
 .submit{
@@ -642,7 +642,7 @@ hr{
     color: #BBBBBB;
     margin: 30px 0 0 0;
     float: right;
-    padding: 10px 146px 10px 146px;
+    padding: 10px 141px 10px 141px;
 }
 
 .submit:hover{
@@ -679,6 +679,10 @@ hr{
     padding-bottom: 15px;
 }
 
+.addresses{
+    display: flex;
+}
+
 .detail-add p{
     font-family: "inter", sans-serif;
     font-weight: 400;
@@ -691,6 +695,7 @@ hr{
     font-family: "inter", sans-serif;
     font-weight: 600;
     line-height: 30px;
+    font-size: 21px;
     color: #E32D91;
 }
 
@@ -759,7 +764,7 @@ hr{
         letter-spacing: 0.16px;
         line-height: 30px;
     }
-    .detail-add p{
+    .detail-add p, .detail-add span{
         font-size: 12px;
         letter-spacing: -0.24px;
     }
