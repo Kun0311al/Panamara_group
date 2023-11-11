@@ -16,8 +16,9 @@ header{
     background-color: #1D1D1D;
 }
 header img{
-    height: 15%;
-    width: 15%;
+    width: 235.8px;
+    height: 90px;
+    flex-shrink: 0;
 }
 
 header li, a{
