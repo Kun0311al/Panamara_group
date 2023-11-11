@@ -115,13 +115,13 @@ header li, a{
 
 
 .container{
-    padding: 50px 60px 0 60px;
+    padding: 50px 77px 0 77px;
     width: 100%;
 }
 
 .heading{
     font-weight: 900;
-    font-size: 120px;
+    font-size: 110px;
     line-height: 120px;
     color: #1D1D1D;
     font-family: 'Nohemi', sans-serif;
@@ -145,22 +145,23 @@ header li, a{
 .p1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 50px;
     width: 50%;
-    padding: 20px 55px;
+    padding: 20px 77px;
     letter-spacing: -2px;
 }
 
 .p2{
-    font-family: 'Inter', sans-serif;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 30px;
+    color: #FFF;
     text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
     width: 50%;
-    padding: 20px 55px;
-    letter-spacing: -3%;
+    padding: 20px 77px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 @media screen and (max-width: 480px) {
@@ -207,14 +208,14 @@ header li, a{
 .name{
     font-family: 'Nohemi', sans-serif;
     font-weight: 900;
-    font-size: 96px;
+    font-size: 70px;
     line-height: 120px;
 }
 
 .ab-line{
     font-family: 'Inter',sans-serif;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 46px;
     letter-spacing: -0.72px;
 }
@@ -398,18 +399,19 @@ hr{
 
 .services-list{
     display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
+    justify-content: space-evenly;
+    padding-top: 30px 85px 30px 85px;
+    margin-top: 30px;
 }
 
 .service-card{
     border: 2px solid #000;
     color: #1D1D1D;
-    width: 49%;
+    width: 39%;
     display: flex;
     align-items: center;
     justify-content: left;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 30.14px;
     font-family: 'Nohemi', sans-serif;
@@ -422,16 +424,22 @@ hr{
 }
 
 .service-card img{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
 }
 
 .container5{
     font-family: 'Inter', sans-serif;
     padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
     gap: 40px;
+}
+
+.whatwe{
+    margin-top: 30px;
+}
+
+.dont{
+    margin-top: 4rem;
 }
 
 .whatwe h2{
@@ -478,8 +486,11 @@ hr{
         width: 50px;
         height: 50px;
     }
-    .container5{
-        flex-direction: column;
+    .whatwe{
+        margin-top: 0;
+    }
+    .dont{
+        margin-top: 2rem;
     }
     .whatwe h2{
         font-size: 16px;
@@ -510,7 +521,7 @@ hr{
 
 .whyd h2{
     font-family: 'Inter', sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 600;
     line-height: 43.57px;
     padding: 10px 0 20px 0;
@@ -535,7 +546,7 @@ hr{
     color: #363636;
     letter-spacing: 0.78px;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 30px;
 }
 
@@ -590,7 +601,7 @@ hr{
 .cname{
     font-family: 'Nohemi', sans-serif;
     font-weight: 600;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 120px;
     color: #1D1D1D;
 }
