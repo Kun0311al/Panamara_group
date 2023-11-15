@@ -113,10 +113,10 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
 <h2>All Data</h2>
 <table border="1">
     <tr>
+        <th>Name</th>
         <th>Email</th>
         <th>Link</th>
         <th>Status</th>
-        <th>Action</th>
     </tr>
     <?php
     // Fetch all data from the database and display it in a table

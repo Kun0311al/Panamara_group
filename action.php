@@ -23,7 +23,7 @@ if ($conn->connect_error) {
 $sql = "INSERT INTO Contactdetails (User_Name, Email, Phone_No) VALUES ('$name', '$email', '$phone')";
 
 if ($conn->query($sql) === true) {
-    echo "Data inserted successfully!";
+    echo "We Will Contact You Soon!";
     //to redirect at home page again
     header("refresh: 2; url = https://panameragroup.com/");
 } else {
