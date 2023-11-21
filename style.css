@@ -390,7 +390,7 @@ hr{
 .service-info{
     font-family: 'Inter', sans-serif;
     padding-top: 20px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 25.41px;
     letter-spacing: -0.36px;
@@ -534,7 +534,7 @@ hr{
 .whyd p{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 30px;
     letter-spacing: -0.36px;
     color: #585858;
@@ -696,6 +696,7 @@ hr{
 
 .addresses{
     display: flex;
+    gap: 15px;
 }
 
 .detail-add p{
