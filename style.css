@@ -698,7 +698,7 @@ hr{
 
 .addresses{
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .detail-add p{
