@@ -121,7 +121,7 @@ header li, a{
 }
 
 .heading{
-    font-weight: 900;
+    font-weight: 600;
     font-size: 100px;
     line-height: 120px;
     color: #1D1D1D;
@@ -141,24 +141,24 @@ header li, a{
     width: 100%;
     margin-top: -110px;
     justify-content: space-between;
-    padding: 0 150px;
+    padding: 30px 150px;
 }
 
 .p1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 50px;
     width: 50%;
     padding: 20px 0;
-    letter-spacing: -2px;
+    letter-spacing: normal;
 }
 
 .p2{
     color: #FFF;
     text-align: justify;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     width: 50%;
     padding: 20px 0 20px 50px;
     font-style: normal;
@@ -210,14 +210,14 @@ header li, a{
 .name{
     font-family: 'Nohemi', sans-serif;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 120px;
 }
 
 .ab-line{
     font-family: 'Inter',sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 46px;
     letter-spacing: -0.72px;
 }
@@ -247,7 +247,7 @@ header li, a{
     font-family: 'Inter', sans-serif;
     padding-top: 30px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29.05px;
     letter-spacing: -0.48px;
 }
@@ -264,7 +264,7 @@ header li, a{
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24.84px;
     width: 15rem;
     padding: 20px 30px 20px 30px;
@@ -316,7 +316,7 @@ header li, a{
 
 .team{
     color: #1D1D1D;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 600;
     line-height: 46px;
     letter-spacing: -0.26px;
@@ -342,7 +342,7 @@ header li, a{
 
 .tcard h3{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 30px;
     letter-spacing: -0.01em;
@@ -351,7 +351,7 @@ header li, a{
 
 .member-name{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 46px;
     letter-spacing: -0.01em;
@@ -444,8 +444,8 @@ hr{
 }
 
 .whatwe h2{
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 700;
+    font-size: 28px;
     line-height: 43.57px;
     letter-spacing: -0.72px;
 }
@@ -523,7 +523,7 @@ hr{
 
 .whyd h2{
     font-family: 'Inter', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 43.57px;
     padding: 10px 0 20px 0;
@@ -533,8 +533,8 @@ hr{
 
 .whyd p{
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 30px;
     letter-spacing: -0.36px;
     color: #585858;
@@ -542,19 +542,19 @@ hr{
     padding-bottom: 35px;
 }
 
-.whyd ul{
+.whyd ol{
     list-style: none;
-    font-family: 'Nohemi', sans-serif;
+    font-family: 'inter', sans-serif;
     color: #363636;
     letter-spacing: 0.78px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
 }
 
 .whyd li{
     margin: 10px 0;
-    font-family: 'Nohemi', sans-serif;
+    font-family: 'inter', sans-serif;
 }
 
 .whyd2 img{
@@ -605,7 +605,7 @@ hr{
 .cname{
     font-family: 'Nohemi', sans-serif;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 120px;
     color: #1D1D1D;
 }
