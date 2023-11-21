@@ -142,16 +142,17 @@ header li, a{
     margin-top: -110px;
     justify-content: space-between;
     padding: 30px 150px;
+    align-items: center;
 }
 
 .p1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    line-height: 50px;
+    line-height: normal;
     width: 50%;
     padding: 20px 0;
-    letter-spacing: normal;
+    letter-spacing: -0.24px;
 }
 
 .p2{
@@ -267,7 +268,7 @@ header li, a{
     font-size: 18px;
     line-height: 24.84px;
     width: 15rem;
-    padding: 20px 30px 20px 30px;
+    padding: 35px 30px 35px 30px;
     align-items: center;
     text-align: center;
 }
@@ -406,17 +407,17 @@ hr{
 }
 
 .service-card{
-    border: 2px solid #000;
+    border: 3px solid #000;
     color: #1D1D1D;
     width: 39%;
     display: flex;
     align-items: center;
     justify-content: left;
     font-size: 24px;
-    font-weight: 500;
-    line-height: 30.14px;
+    font-weight: 600;
+    line-height: normal;
     font-family: 'Nohemi', sans-serif;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.48px;
     padding: 10px 15px;
 }
 
@@ -440,7 +441,7 @@ hr{
 }
 
 .dont{
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .whatwe h2{
@@ -457,6 +458,7 @@ hr{
     letter-spacing: -0.36px;
     color: #1D1D1D;
     gap: 30px;
+    padding-bottom: 20px;
 }
 
 .whatwe span{
