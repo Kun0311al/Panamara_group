@@ -12,7 +12,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 77px 15px 77px;
+    padding: 15px 67px 15px 67px;
     background-color: #1D1D1D;
 }
 header img{
@@ -177,7 +177,7 @@ button:hover {
 
 
 .footer{
-    padding: 50px 77px 20px 77px;
+    padding: 50px 63px 20px 63px;
     background-color: #000;
     color: #FFF;
 }

@@ -12,7 +12,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 77px 15px 77px;
+    padding: 15px 67px 15px 67px;
     background-color: #1D1D1D;
 }
 header img{
@@ -116,14 +116,14 @@ header li, a{
 
 
 .container{
-    padding: 50px 150px 0 150px;
+    padding: 30px 150px 0 150px;
     width: 100%;
 }
 
 .heading{
     font-weight: 600;
-    font-size: 100px;
-    line-height: 120px;
+    font-size: 80px;
+    line-height: 90px;
     color: #1D1D1D;
     font-family: 'Nohemi', sans-serif;
     text-transform: uppercase;
@@ -131,7 +131,7 @@ header li, a{
 }
 
 .fish{
-    margin: -220px 0 -4px -140px;
+    margin: -150px 0 -4px -160px;
 }
 
 .container2{
@@ -169,7 +169,7 @@ header li, a{
 
 @media screen and (max-width: 480px) {
     .heading{
-        font-size: 40px;
+        font-size: 38px;
         line-height: 36px;
         font-weight: 900;
     }
@@ -196,7 +196,7 @@ header li, a{
         letter-spacing: 0px;
     }
     .fish{
-        margin: -50px 0 -40px 0px;
+        margin: 40px 0 -40px 0px;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -211,7 +211,7 @@ header li, a{
 .name{
     font-family: 'Nohemi', sans-serif;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 58px;
     line-height: 120px;
 }
 
@@ -338,7 +338,7 @@ header li, a{
 
 .tcard img{
     width: 253.5px;
-    height: 298px;
+    height: 278px;
 }
 
 .tcard h3{
@@ -595,7 +595,7 @@ hr{
     }
     .whyd2{
         width: 100%;
-        margin-left: -40px;
+        margin-left: -80px;
         margin-right: 10px;
     }
 }
@@ -607,7 +607,7 @@ hr{
 .cname{
     font-family: 'Nohemi', sans-serif;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 58px;
     line-height: 120px;
     color: #1D1D1D;
 }
@@ -667,7 +667,7 @@ hr{
 }
 
 .footer{
-    padding: 50px 77px 20px 77px;
+    padding: 50px 63px 20px 63px;
     background-color: #000;
     color: #FFF;
 }
