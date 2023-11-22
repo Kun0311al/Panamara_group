@@ -127,11 +127,13 @@ header li, a{
     color: #1D1D1D;
     font-family: 'Nohemi', sans-serif;
     text-transform: uppercase;
-    background-color: transparent;
 }
 
 .fish{
-    margin: -150px 0 -4px -160px;
+    /* margin: -150px 0 -4px -160px; */
+    margin-top: -60px 0 0 0;
+    padding: 0;
+    align-items: center;
 }
 
 .container2{
@@ -139,7 +141,7 @@ header li, a{
     display: flex;
     color: #fff;
     width: 100%;
-    margin-top: -110px;
+    margin-top: 0px;
     justify-content: space-between;
     padding: 30px 150px;
     align-items: center;
