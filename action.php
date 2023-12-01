@@ -25,7 +25,20 @@ $sql = "INSERT INTO Contactdetails (User_Name, Email, Phone_No) VALUES ('$name',
 if ($conn->query($sql) === true) {
     echo "We Will Contact You Soon!";
     //to redirect at home page again
-    header("refresh: 2; url = https://panameragroup.com/");
+    header("refresh: 1; url = https://panameragroup.com/");
+    $content = "You have a new appointment request from : $name \n
+                Appointment Details:\n
+                Name: $name \n
+                Email: $email \n
+                Phone Number: $phone \n
+                Please contact $name at $email or $phone to schedule or confirm the appointment time.\n
+                Thank you";
+    $recipient = "kunalparkar@kccemsr.edu.in";
+    //$ccRecipient = "kunalparkar1234@gmail.com";
+    $mailheader = "From: $email \r\n";
+    // $mailheader .= "CC: $ccRecipient \r\n";
+    $subject = "You have a new appointment request";
+    mail($recipient, $subject, $content, $mailheader) or die("Error!");
 } else {
     echo "Error: ";
 }
