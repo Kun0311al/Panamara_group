@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 500px;
+      padding: 50px;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .container {
+        padding: 30px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Thank you for submitting your response!</h1>
+    <p>Our team will reach out to you shortly.</p>
+    <a href="index.html">Back to Home</a>
+  </div>
+  <script>
+    setTimeout(function() {
+      window.location.href = "index.html";
+    }, 4000); // Change 4000 to desired delay in milliseconds
+  </script>
+</body>
+</html>

@@ -17,7 +17,7 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel</title>
-
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -97,10 +97,10 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     <input type="email" id="newEmail" name="newEmail" required>
     <br>
     <label for="newLink">Link:</label>
-    <input type="text" id="newLink" name="newLink" required>
+    <input type="text" id="newLink" name="newLink" placeholder="One Drive Link" required>
     <br>
     <label for="newStatus">Status:</label>
-    <input type="text" id="newStatus" name="newStatus" required>
+    <input type="text" id="newStatus" name="newStatus" placeholder="i.e. Active or Inactive" required>
     <br>
     <button type="submit">Add New Data</button>
 </form>
@@ -114,10 +114,10 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     <input type="email" id="updateEmail" name="updateEmail" required>
     <br>
     <label for="updateLink">Link:</label>
-    <input type="text" id="updateLink" name="updateLink" required>
+    <input type="text" id="updateLink" name="updateLink" placeholder="One Drive Link" required>
     <br>
     <label for="updateStatus">Status:</label>
-    <input type="text" id="updateStatus" name="updateStatus" required>
+    <input type="text" id="updateStatus" name="updateStatus" placeholder="i.e. Active or Inactive" required>
     <br>
     <button type="submit">Update Data</button>
 </form>

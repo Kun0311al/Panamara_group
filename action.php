@@ -2,7 +2,6 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-//to use SMTP download github repo from https://github.com/PHPMailer/PHPMailer and add in files and mention path below
 require 'PHPMailer-master/src/Exception.php';
 require 'PHPMailer-master/src/PHPMailer.php';
 require 'PHPMailer-master/src/SMTP.php';
@@ -33,7 +32,7 @@ if ($conn->query($sql) === true) {
     sendEmail($name, $email, $phone);
     echo "We Will Contact You Soon!";
     //to redirect at home page again
-    header("refresh: 1; url = https://panameragroup.com/");
+    header("refresh: 15; url = https://panameragroup.com/");
 } else {
     echo "Error: " . $conn->error;
 }
@@ -43,7 +42,7 @@ $conn->close();
 
 // Function to send email using PHPMailer
 function sendEmail($name, $email, $phone) {
-    $recipient = "contactus@panameragroup.com";
+    $recipient = "contact@panameragroup.com";
     $subject = "You have a new appointment request";
 
     $content = "You have a new appointment request from: $name \n
@@ -58,13 +57,12 @@ function sendEmail($name, $email, $phone) {
 
     try {
         $mail->isSMTP();
-        $mail->Host       = 'mail.panameragroup.com';  // Specify the SMTP server
+        $mail->Host       = 'smtp.office365.com';  // Specify the SMTP server
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'contactus@panameragroup.com';    // SMTP username
-        $mail->Password   = 'Mayflower!12';    // SMTP password
+        $mail->Username   = 'contact@outlook.com';    // SMTP username
+        $mail->Password   = 'zskvcwtcbzyswttm';    // SMTP password
         $mail->SMTPSecure = 'tls';                    // Enable TLS encryption, `ssl` also accepted
         $mail->Port       = 587;                      // TCP port to connect to
-
         $mail->setFrom($email, $email);
         $mail->addAddress($recipient);
 

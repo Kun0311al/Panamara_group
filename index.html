@@ -50,9 +50,7 @@
                 Customized Accounting, Payroll, Tax, and Finance Services for Your Business Needs
             </p>
             <p class="p2">
-                Panamera Groups offers versatile outsourced financial services—accounting, payroll, tax, and finance
-                solutions —featuring fixed and hourly rates. We customize solutions to suit businesses at any stage of
-                their lifecycle.
+                Panamera Groups offers versatile outsourced financial services including: accounting, payroll, tax, and finance solutions. We offer customize solutions to suit businesses at any stage of their lifecycle. Our professional services are offered on an hourly or fixed rate basis.
             </p>
         </div>
     </section>
@@ -123,7 +121,7 @@
                     <span class="member-name">Bhairavi Awate</span>
                 </div>
                 <div class="tcard">
-                    <img class="t3" src="assets/Sanjeet.jpg" alt="member3">
+                    <img class="t3" src="assets/sanjeet1.jpg" alt="member3">
                     <h3>
                         Team Lead - Bookkeeping 
                     </h3>
@@ -191,7 +189,7 @@
 
         <div class="container5">
             <div class="whatwe">
-                <h2>What We Do</h2><br>
+                <h2>What We Do</h2><br><br>
                 <p><span>Understand</span> your business and your specific needs</p>
                 <p><span>Strive for excellence</span> accredited to our core completencies and technological supremacy
                 </p>
@@ -202,7 +200,7 @@
                     services</p>
             </div>
             <div class="whatwe dont">
-                <h2>What We Don’t</h2><br>
+                <h2>What We Don’t</h2><br><br>
                 <p><span>Forget you</span> once you have signed up</p>
                 <p><span>Neglect data security</span> - the highest level of data security and data is housing in the
                     USA</p>
@@ -251,24 +249,30 @@
         <h2 class="ab-line">
             Our executive will contact you ASAP
         </h2>
-        <form action="action.php" method="POST">
+        <!--<form action="action.php" method="POST" id="contact-form">-->
+        <!--<form action="https://formsubmit.co/06a4da47c98d26d198b06f1fc66cae31" method="POST" id="contact-form">-->
+        <form id="contact-form" method="POST" action="https://formsubmit.co/06a4da47c98d26d198b06f1fc66cae31" onsubmit="sendData()">
+            <input type="hidden" name="_cc" value="kunalparkar@kccemsr.edu.in">
+            <input type="hidden" name="_next" value="https://panameragroup.com/thankyou.html">
+            <input type="hidden" name="_subject" value="New submission from Panamera Website">
+            <input type="hidden" name="_captcha" value="false">
             <div class="details">
                 <div class="area">
                     <label for="Name">NAME</label>
-                    <input name="pname" type="text" placeholder="John Doe" required>
+                    <input id="pname" name="name" type="text" placeholder="John Doe" required>
                 </div>
     
                 <div class="area">
                     <label for="Email">EMAIL</label>
-                    <input name="pemail" type="email" placeholder="johndoe@gmail.com" required>
+                    <input id="pemail" name="email" type="email" placeholder="johndoe@gmail.com" required>
                 </div>
     
                 <div class="area">
                     <label for="number">PHONE-NUMBER</label>
-                    <input name="pcontact" type="tel" placeholder="+1 (800) 661 3783" required>
+                    <input id="pcontact" name="contact" type="tel" placeholder="+1 (800) 661 3783" required>
                 </div>
             </div>
-            <button name="submit" class="submit" type="submit">SUBMIT</button>
+            <button class="submit" type="submit">SUBMIT</button>
         </form>
     </section>
 
@@ -285,11 +289,11 @@
                         <span>INDIA</span>
                     </div>
                     <div class="add">
-                        <p>7670 US 31 South, Indianapolis IN-46227</p>
+                        <p>1296 Dartford Drive Tarpon Springs FL 34688</p>
                         <p>1st Floor Suite No 4, Anora Residency, Bolinj Road Virar West – 401303 Mumbai, Maharashtra</p>
                     </div>
                 </div>
-                <p><span style="margin-right: 25px;">Tel :</span> 833-743-2665</p>
+                <p><span style="margin-right: 25px;">Tel :</span> 1-833-743-2665</p>
                 <!-- <p><span>USA</span> 2901 Carlson Drive, Hammond, IN 46323</p>
                 <p><span>INDIA</span> 1st Floor Suite No 4, Anora Residency, Bolinj Road Virar West – 401303 Mumbai, Maharashtra</p> -->
             </div>
@@ -310,6 +314,7 @@
         const toggleBtn = document.querySelector('.toggle_btn')
         const toggleBtnIcon = document.querySelector('.toggle_btn i')
         const dropDownMenu = document.querySelector('.dropdown_menu')
+        // const contactForm = document.getElementById("contact-form");
 
         toggleBtn.onclick = function () {
             dropDownMenu.classList.toggle('open')
@@ -322,6 +327,52 @@
         function myFunction() {
             window.location.href = "https://panameragroup.com/";
         }
+        
+        function sendData() {
+          event.preventDefault(); // Prevent default form submission
+          const formData = new FormData(document.getElementById("contact-form"));
+          // Send form data to your server-side script
+          fetch('storedata.php', {
+            method: 'POST',
+            body: formData
+          })
+          .then(response => response.text())
+          .then(data => {
+            // Handle server response (e.g., display success message)
+          })
+          .catch(error => console.error(error));
+          // Submit the form to the third-party app after data is sent
+          document.getElementById("contact-form").submit();
+        }
+
+
+
+        // contactForm.addEventListener("submit", (event) => {
+        //   event.preventDefault(); // Prevent default form submission
+        
+        //   const name = document.getElementById("name").value;
+        //   const email = document.getElementById("email").value;
+        //   const contact = document.getElementById("contact").value;
+        
+        //   const formData = new FormData();
+        //   formData.append("name", name);
+        //   formData.append("email", email);
+        //   formData.append("contact", contact);
+        
+        //   fetch("store_data.php", {
+        //     method: "POST",
+        //     body: formData
+        //   })
+        //   .then(response => response.text())
+        //   .then(result => {
+        //     alert(result); // Display success or error message from PHP script
+        //   })
+        //   .catch(error => {
+        //     console.error("Error sending email:", error);
+        //     alert("Error sending email. Please try again.");
+        //   });
+        // });
+
     </script>
 </body>
 
