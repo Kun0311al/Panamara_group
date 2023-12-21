@@ -1,3 +1,4 @@
+<!--this page give the option to edit the database without going to cpanel-->
 <?php
 session_start();
 

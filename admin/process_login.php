@@ -1,7 +1,8 @@
+<!--this page check the credentials of admin and give permission to admin page-->
 <?php
 // Hardcoded admin credentials
-$adminUsername = 'admin';
-$adminPassword = 'adminpassword';
+$adminUsername = 'set_username';
+$adminPassword = 'set_password';
 
 // Get user input
 $userInputUsername = $_POST['username'];

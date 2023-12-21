@@ -1,3 +1,4 @@
+<!--login page for the admin to access the editing page-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,7 +65,7 @@
 <body>
 
 
-
+<!--admin login page-->
 <form action="process_login.php" method="post">
     <h2>Admin Login</h2>
     <label for="username">Username:</label>

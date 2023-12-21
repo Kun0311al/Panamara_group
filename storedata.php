@@ -1,3 +1,4 @@
+<!--this file store the data of contact form in database-->
 <?php
 // Access form data
 $name = $_POST['name'];
@@ -5,10 +6,10 @@ $email = $_POST['email'];
 $contact = $_POST['contact'];
 
 // Validate and process data (optional)
-$servername = 'bom1plzcpnl503502';
-$username = 'panameragroup';
-$password = 'Mayflower!12';
-$dbname = 'panameragroup';
+$servername = 'server_name_of_cpanel';
+$username = "database_editor_name";
+$password = "user_password";
+$dbname = "database_name";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

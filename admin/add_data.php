@@ -1,8 +1,9 @@
+<!--adding new data in database-->
 <?php
-$servername = 'bom1plzcpnl503502';
-$username = "panameragroup";
-$password = "Mayflower!12";
-$dbname = "panameragroup";
+$servername = 'server_name_of_cpanel';
+$username = "database_editor_name";
+$password = "user_password";
+$dbname = "database_name";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

@@ -1,7 +1,10 @@
+<!-- this is a alternative solution for the mailing system PHPMailer for this we have to include
+ phpMailer from github repository using SMTP server-->
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+//path of phpMailer files
 require 'PHPMailer-master/src/Exception.php';
 require 'PHPMailer-master/src/PHPMailer.php';
 require 'PHPMailer-master/src/SMTP.php';
@@ -12,10 +15,10 @@ $email = $_POST['pemail'];
 $phone = $_POST['pcontact'];
 
 // Database connection settings
-$servername = 'bom1plzcpnl503502';
-$username = 'panameragroup';
-$password = 'Mayflower!12';
-$dbname = 'panameragroup';
+$servername = 'server_name_of_cpanel';
+$username = "database_editor_name";
+$password = "user_password";
+$dbname = "database_name";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -31,8 +34,8 @@ $sql = "INSERT INTO Contactdetails (User_Name, Email, Phone_No) VALUES ('$name',
 if ($conn->query($sql) === true) {
     sendEmail($name, $email, $phone);
     echo "We Will Contact You Soon!";
-    //to redirect at home page again
-    header("refresh: 15; url = https://panameragroup.com/");
+    //to redirect at home page again after 2 sec
+    header("refresh: 2; url = https://panameragroup.com/");
 } else {
     echo "Error: " . $conn->error;
 }
@@ -42,7 +45,7 @@ $conn->close();
 
 // Function to send email using PHPMailer
 function sendEmail($name, $email, $phone) {
-    $recipient = "contact@panameragroup.com";
+    $recipient = "your@email.com";
     $subject = "You have a new appointment request";
 
     $content = "You have a new appointment request from: $name \n
@@ -57,10 +60,10 @@ function sendEmail($name, $email, $phone) {
 
     try {
         $mail->isSMTP();
-        $mail->Host       = 'smtp.office365.com';  // Specify the SMTP server
+        $mail->Host       = 'outgoing_server';  // Specify the SMTP server
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'contact@outlook.com';    // SMTP username
-        $mail->Password   = 'zskvcwtcbzyswttm';    // SMTP password
+        $mail->Username   = 'your@email.com';    // SMTP username
+        $mail->Password   = 'email_password';    // SMTP password
         $mail->SMTPSecure = 'tls';                    // Enable TLS encryption, `ssl` also accepted
         $mail->Port       = 587;                      // TCP port to connect to
         $mail->setFrom($email, $email);

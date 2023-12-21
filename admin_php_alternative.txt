@@ -1,3 +1,4 @@
+<!--This is the another alternative for direct mail system inbuild in php-->
 <?php
 // Retrieve form data
 $name = $_POST['pname'];
@@ -6,10 +7,10 @@ $phone = $_POST['pcontact'];
 
 
 // Database connection settings
-$servername = 'bom1plzcpnl503502';
-$username = 'panameragroup';
-$password = 'Mayflower!12';
-$dbname = 'panameragroup';
+$servername = 'server_name_of_cpanel';
+$username = "database_editor_name";
+$password = "user_password";
+$dbname = "database_name";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -33,10 +34,10 @@ if ($conn->query($sql) === true) {
                 Phone Number: $phone \n
                 Please contact $name at $email or $phone to schedule or confirm the appointment time.\n
                 Thank you";
-    $recipient = "client@panameragroup.com";
-    // $ccRecipient = "mail for CC";
+    $recipient = "your@email.com";
+    $ccRecipient = "CC@email.com";
     $mailheader = "From: $email \r\n";
-    // $mailheader .= "CC: $ccRecipient \r\n";
+    $mailheader .= "CC: $ccRecipient \r\n";
     $subject = "You have a new appointment request";
     mail($recipient, $subject, $content, $mailheader) or die("Error!");
 } else {

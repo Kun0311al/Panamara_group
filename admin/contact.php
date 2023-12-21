@@ -1,3 +1,4 @@
+<!--display the contact form data. no need to visit cpanel-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
